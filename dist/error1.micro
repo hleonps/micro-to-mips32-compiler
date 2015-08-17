@@ -1,0 +1,6 @@
+-- error lexico
+begin
+	var1 := 2;
+	var1 := var1 + var1;
+	w*rite(var1);
+end

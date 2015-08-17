@@ -1,0 +1,6 @@
+-- programa facil 2
+begin
+	var1 := 0;
+	read(var1);
+	write(var1);
+end

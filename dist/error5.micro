@@ -1,0 +1,8 @@
+-- error semántico
+begin
+	var1 := 5 - (3 + 12);
+	var2 := 0;
+	read(var4);
+	var3 := (var2 | write(var1) | write(var2));
+	write(var3);
+end

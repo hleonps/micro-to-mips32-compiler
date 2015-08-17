@@ -1,0 +1,7 @@
+-- Programa complejo 2
+begin
+	--var1 := 0;
+	read(var1);
+	var2 := ( (var1 | 0 | 1 ) | 123 | 3) + 600 + 60 + 6;
+	write(var1,var2);
+end

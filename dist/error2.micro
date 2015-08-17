@@ -1,0 +1,6 @@
+-- error lexico
+begin
+	var1 := 0;
+	re:)ad(var1);
+	write(var1);
+end
