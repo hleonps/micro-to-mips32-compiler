@@ -3,7 +3,7 @@ Compilers and Interpreters
 Project 1 - Micro-Compiler  
 Made by Luis Alvarado & Heiner León - August, 2015  
 
-##Brief Information  
+## Brief Information  
 
 Micro is a simple language from the chapter 2 of the book *Crafting a compiler with C* by Charles N. Fischer and Richard J. LeBlanc Jr:
 
@@ -22,7 +22,7 @@ Micro is a simple language from the chapter 2 of the book *Crafting a compiler w
 - Each statement is terminated by a semicolon (;). The body of a program is delimited by **begin** and **end**.
 - A blank is appended to the right end of each source line; thus tokens may not extend across line boundaries.
 
-##Compilation Instructions
+## Compilation Instructions
 
 *IMPORTANT: gcc compiler required*
 
@@ -31,7 +31,7 @@ Micro is a simple language from the chapter 2 of the book *Crafting a compiler w
 
 Once the program is compiled, the compiler will be in the folder 'dist'
 
-##How to Use
+## How to Use
 
 1. Open a new terminal window in the dist folder of the project. (./dist).
 2. Type in the terminal the compiler name (mcc) followed by the micro program which want to be compiled.  
