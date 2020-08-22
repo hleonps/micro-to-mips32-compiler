@@ -11,15 +11,14 @@
 token current_token;
 token *tmp_token;
 
-
 void system_goal(void);
 void program(void);
 void statement_list(void);
 void statement(void);
 void id_list(void);
-void expression(expr_rec *target, int condicional);
+void expression(expr_rec *target, int conditional);
 void expr_list();
-void condicional(expr_rec *target, token t);
+void conditional(expr_rec *target, token t);
 op_rec add_op(void);
 expr_rec primary(expr_rec target);
 

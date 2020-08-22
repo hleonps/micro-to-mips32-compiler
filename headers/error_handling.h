@@ -4,7 +4,6 @@
 #include "constants.h"
 #include "scanner.h"
 
-
 void lexical_error(int in_char);
 void syntax_error(void);
 void semantic_error(void);

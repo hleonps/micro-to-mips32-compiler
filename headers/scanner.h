@@ -8,16 +8,30 @@
 #include <string.h>
 #include "error_handling.h"
 
-extern const char* reserved_words[];
+extern const char *reserved_words[];
 
-typedef enum{
-	BEGIN, END, READ, WRITE, ID, INTLITERAL,
-	LPAREN, RPAREN, SEMICOLON, COMMA, ASSIGNOP,
-	PLUSOP, MINUSOP, PIPEOP, SCANEOF
+typedef enum
+{
+	BEGIN,
+	END,
+	READ,
+	WRITE,
+	ID,
+	INTLITERAL,
+	LPAREN,
+	RPAREN,
+	SEMICOLON,
+	COMMA,
+	ASSIGNOP,
+	PLUSOP,
+	MINUSOP,
+	PIPEOP,
+	SCANEOF
 } token;
 
-typedef struct{
-	char * token;
+typedef struct
+{
+	char *token;
 	unsigned int size;
 } buffer;
 
@@ -25,15 +39,16 @@ typedef struct{
 FILE *source;
 
 /* Output code file */
-FILE* output;
-char * output_name;
+FILE *output;
+char *output_name;
 
-typedef struct{
+typedef struct
+{
 	int number;
 	int offset;
 } line_t;
 
-const char* reserved_words[4];
+const char *reserved_words[4];
 
 buffer token_buffer;
 line_t line_info;
